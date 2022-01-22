@@ -35,7 +35,7 @@
 						<username>${env.PLATFORM_USERNAME}</username>
 						<password>${env.PLATFORM_PASSWORD}</password>
 						<applicationName>cicd-pipeline-githubactions-kokila</applicationName>
-						<environment>${env}</environment>
+						<environment>${env.PLATFORM_ENV}</environment>
 						<workers>1</workers>
 						<workerType>MICRO</workerType>
 						<objectStoreV2>true</objectStoreV2>
