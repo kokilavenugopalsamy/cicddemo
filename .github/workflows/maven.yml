@@ -27,6 +27,6 @@ jobs:
       env:
         PLATFORM_USERNAME: ${{ secrets.PLATFORM_USERNAME }}
         PLATFORM_PASSWORD: ${{ secrets.PLATFORM_PASSWORD }}
-        env: ${{ secrets.env }} 
+        PLATFORM_ENV: ${{ secrets.PLATFORM_ENV }} 
       
     
